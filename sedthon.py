@@ -576,7 +576,7 @@ async def _(event):
 ☆ Ping : `{ms}`
 ☆ Date : `{m9zpi}`
 ☆ ID : `{event.sender_id}`
-☆ Source  : @H_P_K**
+☆ Source  : @S_Y_N**
 ''')
 
 
@@ -664,9 +664,9 @@ async def _(event):
 async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
-   ✯︙𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 𝚂𝚄𝙳𝙾 : @iziii .
-   ✯︙𝙸𝙳 𝚂𝚄𝙳𝙾 : 1041483862 .
-   ✯︙𝙱𝙸𝙾 𝚂??𝙳𝙾 :  H_P_K.t.me .
+   ✯︙𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 𝚂𝚄𝙳𝙾 : @S_Y_N .
+   ✯︙𝙸𝙳 𝚂𝚄𝙳𝙾 : 1883120653 .
+   ✯︙𝙱𝙸𝙾 𝚂??𝙳𝙾 :  S_Y_N.t.me .
 ''', reply_to=event)
 
 
@@ -674,9 +674,9 @@ async def _(event):
 async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
-  ✯︙𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 𝚂𝚄𝙳𝙾 : @iziii .
-  ✯︙𝙸𝙳 𝚂𝚄𝙳𝙾 : 1041483862 .
-  ✯︙𝙱𝙸𝙾 𝚂??𝙳𝙾 :  H_P_K.t.me .
+  ✯︙𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 𝚂𝚄𝙳𝙾 : @S_Y_N .
+  ✯︙𝙸𝙳 𝚂𝚄𝙳𝙾 : 1883120653 .
+  ✯︙𝙱𝙸𝙾 𝚂??𝙳𝙾 :  S_Y_N.t.me .
 ''', reply_to=event)
 
 
@@ -703,18 +703,18 @@ async def _(event):
 async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
-   ✯︙𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 𝚂𝚄𝙳𝙾 : @iziii .
-   ✯︙𝙸𝙳 𝚂𝚄𝙳𝙾 : 1041483862 .
-   ✯︙𝙱𝙸𝙾 𝚂??𝙳𝙾 : H_P_K.t.me .
+   ✯︙𝚄𝚂𝙴𝚁𝙽𝙰𝙼𝙴 𝚂𝚄𝙳𝙾 : @S_Y_N .
+   ✯︙𝙸𝙳 𝚂𝚄𝙳𝙾 : 1883120653 .
+   ✯︙𝙱𝙸𝙾 𝚂??𝙳𝙾 : S_Y_N.t.me .
 ''', reply_to=event)
 
 
-ownerhson_id = 1041483862
+ownerhson_id = 1883120653
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا بلعـزيز حلم حبيبي ستوى نورت جانت ضوجه @iziii') 
+        order = await event.reply('اهلا بعـزيزي علي @iziii') 
 
 
 	
